@@ -51,11 +51,10 @@
 
 
 	.section2 {
-		display: flex;
-		flex-direction: column;
+		display: grid;
+		grid-auto-flow: row;
 		padding: 30px;
 	}
-
 
 
 .section3 {
@@ -144,7 +143,7 @@
 		align-items: center;
 		padding: 30px 10px;
 		background-image: url(../img/bgStandBy.jpg);
-		background-position: top right;
+		background-position: right -130px bottom -20px;
 		background-origin: border-box;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -171,12 +170,18 @@
 
 	.section1 {
 		height: auto;
+		padding: 60px 0;
 	}
 
 	.sectionText {
-		grid-row: 2 / 3;
+		grid-row: 3 / 4;
 		grid-column: 1 / -1;
 		width: 90%;
+	}
+
+	.iconLogoSvg {
+		padding: 0;
+		margin: 0;
 	}
 
 	.sectionText h1 {
@@ -187,32 +192,48 @@
 		display: none;
 	}
 
+	.section1Title {
+		font-size: 20px;
+		grid-row: 2 / 3;
+	}
 
 
+.agendaWrapper span {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
+	margin-bottom: 40px;
+}
 
 
-
+.agendaWrapper span:last-child {
+	margin: 0;
+}
 
 	.section2 {
-		display: flex;
-		flex-direction: column;
+		display: grid;
+		grid-auto-flow: row;
 		padding: 10px;
 		margin: 0;
 	}
 
 	.section2 h1 {
-		font-size: 16px;
+		font-size: 20px;
 		width: 100%;
 	}
 
 	.section2 ul {
 		margin: 0;
 		padding: 0;
+		margin: 0 auto;
+		width: 90%;
 	}
 
-		.section2 ul li span {
-			font-size: 18px;
-		}
+	.section2 ul li span {
+		font-size: 18px;
+		line-height: 1.4;
+		text-align: left;
+	}
 
 	.section2 h2 {
 		font-size: 18px;
@@ -242,6 +263,9 @@
 	}
 
 
+amp-accordion section p {
+	text-align: left;
+}
 
 
 
@@ -250,13 +274,21 @@
 		height: auto;
 	}
 
+
+
 	.section4 h1,
 	.show-more span,
 	.show-less span {
-		font-size: 18px;
+		font-size: 20px;
 	}
 
 
+	.section4 h1 {
+		font-size: 25px;
+		font-weight: 500;
+		color: #fff;
+		width: 80%;
+	}
 
 .section5 {
 	height: auto;
