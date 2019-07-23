@@ -1,0 +1,296 @@
+@media screen and (max-width: 1024px) and (min-width: 600px) {
+	.header {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: auto auto auto;
+		justify-content: center;
+		align-items: center;
+		padding: 30px 60px;
+		background-image: url(../img/bgStandBy.jpg);
+		background-position: top right;
+		background-origin: border-box;
+		background-repeat: no-repeat;
+		background-size: cover;
+		z-index: -1;
+	}
+
+	.logolgpd {
+		grid-column: 1 / -1;
+	}
+
+	.header h1 {
+		font-size: 30px;
+	}
+
+	.tarjaLogos {
+		width: 100%;
+	}
+
+	.bgHeader {
+		display: none;
+	}
+
+	.section1 {
+		height: auto;
+	}
+
+	.sectionText {
+		grid-row: 2 / 3;
+		grid-column: 1 / -1;
+		width: 90%;
+	}
+
+	.lockIcon {
+		display: none;
+	}
+
+
+
+
+
+
+
+	.section2 {
+		display: flex;
+		flex-direction: column;
+		padding: 30px;
+	}
+
+
+
+.section3 {
+	padding: 60px 20px;
+	height: auto;
+}
+
+
+	.teamBlocks {
+		grid-template-columns: 1fr;
+		grid-row-gap: 50px;
+		width: 90%;
+	}
+
+	.individual {
+		border: none;
+		padding: 0;
+	}
+
+	.individual amp-img {
+		width: 150px;
+		height: 150px;
+	}
+
+
+
+
+
+	.section4 {
+		padding: 20px;
+		height: auto;
+	}
+
+
+
+
+
+.section5 {
+	height: auto;
+}
+
+
+	.saibaMaisBlocks {
+		grid-template-columns: 1fr;
+		margin-bottom: 60px;
+		width: 80%;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 599px) and (min-width: 320px) {
+	.header {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: auto auto auto;
+		justify-content: center;
+		align-items: center;
+		padding: 30px 10px;
+		background-image: url(../img/bgStandBy.jpg);
+		background-position: top right;
+		background-origin: border-box;
+		background-repeat: no-repeat;
+		background-size: cover;
+		z-index: -1;
+	}
+
+	.logolgpd {
+		grid-column: 1 / -1;
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.header h1 {
+		font-size: 20px;
+	}
+
+	.tarjaLogos {
+		width: 100%;
+	}
+
+	.bgHeader {
+		display: none;
+	}
+
+	.section1 {
+		height: auto;
+	}
+
+	.sectionText {
+		grid-row: 2 / 3;
+		grid-column: 1 / -1;
+		width: 90%;
+	}
+
+	.sectionText h1 {
+		font-size: 18px;
+	}
+
+	.lockIcon {
+		display: none;
+	}
+
+
+
+
+
+
+
+	.section2 {
+		display: flex;
+		flex-direction: column;
+		padding: 10px;
+		margin: 0;
+	}
+
+	.section2 h1 {
+		font-size: 16px;
+		width: 100%;
+	}
+
+	.section2 ul {
+		margin: 0;
+		padding: 0;
+	}
+
+		.section2 ul li span {
+			font-size: 18px;
+		}
+
+	.section2 h2 {
+		font-size: 18px;
+		width: 100%;
+	}
+
+	.section3 {
+		padding: 60px 20px;
+		height: auto;
+	}
+
+
+	.teamBlocks {
+		grid-template-columns: 1fr;
+		grid-row-gap: 50px;
+		width: 90%;
+	}
+
+	.individual {
+		border: none;
+		padding: 0;
+	}
+
+	.individual amp-img {
+		width: 150px;
+		height: 150px;
+	}
+
+
+
+
+
+	.section4 {
+		padding: 20px;
+		height: auto;
+	}
+
+	.section4 h1,
+	.show-more span,
+	.show-less span {
+		font-size: 18px;
+	}
+
+
+
+.section5 {
+	height: auto;
+}
+
+
+.section5 h1 {
+	font-size: 20px;
+}
+
+
+.saibaMaisBlock h2 {
+	font-size: 20px;
+}
+
+
+	.saibaMaisBlocks {
+		grid-template-columns: 1fr;
+		margin-bottom: 60px;
+		width: 80%;
+	}
+
+
+.daysWrapper {
+	grid-template-columns: 1fr;
+	grid-row-gap: 30px;
+}
+
+
+	.cta span {
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+}
+
+
+}
